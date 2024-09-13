@@ -1,3 +1,4 @@
+import Image from 'next/image';
 const services = [
     {
         title: 'Web App Development',
@@ -54,8 +55,10 @@ const Services = () => {
                             key={index}
                             className="bg-white border-2  rounded-3xl  p-6 "
                         >
-                            <img
+                            <Image
                                 className=" bg-[#F0F0F0] rounded-full px-1 py-1  h-14 w-14 mb-4"
+                                width={500}
+                                height={500}
                                 src={service.icon}
                                 alt={service.title}
                             />
@@ -70,7 +73,8 @@ const Services = () => {
                 <div className="mt-8 text-center">
                     <button className="border font-semibold relative border-blue-600 text-black-600 py-2 pl-8 pr-11 rounded-lg hover:bg-blue-100 transition">
                         View More
-                        <img className=" absolute right-4 top-3 " src="/solutions/Vector.png" />
+                        <Image className=" absolute right-4 top-3 " width={12}
+                            height={12} src="/solutions/Vector.png" />
                     </button>
                 </div>
             </div>

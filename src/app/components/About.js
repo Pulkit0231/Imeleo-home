@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 
 const About = () => {
     return (
@@ -12,14 +13,17 @@ const About = () => {
                     </p>
                 </div>
                 <div className=' mt-12  grid gap-4 grid-cols-2 sm:grid-cols-2 ' >
-                    <img
+                    <Image
                         src="/About.png"
                         alt="About"
+                        width={568}
+                        height={516}
                         className="  rounded-xl mb-6 ml-10 shadow-lg"
                     />
                     <div className="">
-                        <h2 className="text-[48px] leading-[57.6px] font-bold text-[#374151] ">
-                            <span className="mr-2">We Are Increasing</span><span className="text-blue-800 ml-2">Business</span>
+                        <h2 className="text-[46px] leading-[57.6px] font-bold text-[#374151] ">
+                            <span className="mr-2">We Are Increasing</span>
+                            <span className="text-blue-800 ml-2">Business</span>
                         </h2>
                         <h2 className="text-[48px] leading-[57.6px] font-bold text-[#374151]">
                             Success With<span className="text-blue-800 ml-2">Technology</span>
@@ -28,14 +32,18 @@ const About = () => {
                             At Imeleo, we use technology to help businesses grow, work smarter, and get better results. Our goal is to make it easier for companies to succeed in today's digital world.
                         </p>
                         <ul className='text-3xl pt-6 text-black'>
-                            <li className='flex'><img className='pr-3' src='/Vectortick.svg' />Problem Solving</li>
-                            <li className='flex pt-6'><img className='pr-3' src='/Vectortick.svg' />Strategic Growth</li>
-                            <li className=' flex pt-6'><img className='pr-3' src='/Vectortick.svg' />Enhanced Performance</li>
+                            <li className='flex'><Image className='pr-3' width={40}
+                                height={40} src='/Vectortick.svg' />Problem Solving</li>
+                            <li className='flex pt-6'><Image className='pr-3' width={40}
+                                height={40} src='/Vectortick.svg' />Strategic Growth</li>
+                            <li className=' flex pt-6'><Image className='pr-3' width={40}
+                                height={40} src='/Vectortick.svg' />Enhanced Performance</li>
                         </ul>
                         <div className="mt-16 ">
                             <button className="border bg-[#1E40AE] font-semibold relative border-blue-600 text-white py-4 pl-9 pr-14 rounded-lg hover:bg-blue-700 transition">
                                 View More
-                                <img className="  absolute right-7 top-5 " src="/Vectorwhite.svg" />
+                                <Image className="  absolute right-7 top-5 " width={12}
+                                    height={12} src="/Vectorwhite.svg" />
                             </button>
                         </div>
                     </div>
@@ -44,7 +52,8 @@ const About = () => {
                 <div className=' mt-20  grid gap-4 grid-cols-2 sm:grid-cols-2 ' >
                     <div className=" ml-10">
                         <h2 className="text-[48px] flex leading-[57.6px] font-bold text-[#374151]">
-                            <img className='mr-4' src='/Vectorstar.svg' />Meet Our <span className="text-blue-800 ml-2">Founder</span>
+                            <Image className='mr-4' width={36}
+                                height={36} src='/Vectorstar.svg' />Meet Our <span className="text-blue-800 ml-2">Founder</span>
                         </h2>
                         <p className="mt-10 text-xl text-gray-500">
                             With decades of industry experience, <strong>Mayank</strong> is a highly skilled software developer, solution architect, and technology entrepreneur. He specializes in building modular and scalable cross-platform software solutions.
@@ -58,13 +67,16 @@ const About = () => {
                     </div>
 
                     <div className='ml-12' >
-                        <img
+                        <Image
                             src="/JS1A9972 bgFounder.png"
                             alt="Mayank Mahajan"
+                            width={540}
+                            height={370}
                             className="  rounded-lg mb-4 shadow-lg"
                         />
 
-                        <h3 className="text-4xl flex font-bold text-[#1E40AF]">Mayank Mahajan<img className='ml-2' src='/Framelinkdin.svg' /></h3>
+                        <h3 className="text-4xl flex font-bold text-[#1E40AF]">Mayank Mahajan<Image className='ml-2' width={32}
+                            height={32} src='/Framelinkdin.svg' /></h3>
                         <p className=" text-xl text-black mb-2">Founder, Imeleo</p>
 
                     </div>

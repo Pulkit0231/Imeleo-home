@@ -1,6 +1,7 @@
 import { FaFacebook, FaInstagram, FaYoutube, } from 'react-icons/fa';
 import { RiLinkedinBoxFill } from "react-icons/ri";
 import { FaXTwitter } from "react-icons/fa6";
+import Image from "next/image";
 
 const Footer = () => {
     return (
@@ -58,12 +59,17 @@ const Footer = () => {
                         <h3 className="text-3xl font-semibold mb-12">Contact</h3>
                         <ul>
                             <li className="mb-2"><a href="tel:+918873338873" className="block flex mb-2 text-lg">
-                                <img className='mr-2' src='/contact/Vectorphoneicon.svg' /> +91-8873-33-8873
+                                <Image className='mr-2' width={24}
+                                    height={24} src='/contact/Vectorphoneicon.svg' /> +91-8873-33-8873
                             </a></li>
-                            <li className="mb-2"><a href="mailto:contact@imeleo.com" className="block underline flex text-lg">
-                                <img className='mr-2' src='/contact/Vectoremailicon.svg' /> contact@imeleo.com
+                            <li className="mb-2"><a href="mailto:contact@imeleo.com" className="block underline flex text-lg mb-2">
+                                <Image className='mr-2' width={24}
+                                    height={24} src='/contact/Vectoremailicon.svg' /> contact@imeleo.com
                             </a></li>
-                            <li className="mb-2 text-lg">Noida, Uttar Pradesh</li>
+                            <li className="mb-2 block flex text-lg">
+                                <Image className='mr-2' width={24}
+                                    height={18} src='/Vectorlocation.svg' />
+                                Noida, Uttar Pradesh</li>
                         </ul>
                     </div>
                 </div>
@@ -77,7 +83,8 @@ const Footer = () => {
                     </div>
                     <div className="flex items-center space-x-2 mt-4 mr-20  md:mt-0">
                         <a href="mailto:info@imeleo.com" className="text-2xl hover:text-gray-300">info@imeleo.com</a>
-                        <img src="/Layer_1flag.svg" alt="India Flag" className=" h-auto" />
+                        <Image src="/Layer_1flag.svg" width={46}
+                            height={32} alt="India Flag" className=" h-auto" />
                     </div>
                 </div>
             </div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 const services = [
     {
         title: 'Technical Expertise',
@@ -54,8 +55,10 @@ const WhyChooseUs = () => {
                             key={index}
                             className="border-2  rounded-3xl p-6"
                         >
-                            <img
+                            <Image
                                 className="bg-[#F0F0F0] rounded-full px-1 py-1  h-14 w-14 mb-4"
+                                width={500}
+                                height={500}
                                 src={service.icon}
                                 alt={service.title}
                             />
