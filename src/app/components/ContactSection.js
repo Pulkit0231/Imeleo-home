@@ -16,7 +16,7 @@ const ContactSection = () => {
                 <div><div className=" mb-6 ml-18">
                     <h2 className="text-[48px] leading-[57.6px] font-bold ">We help you to grow your business faster & easier.</h2>
                     <p className="mt-2 text-xl  ">
-                        Partner with us to simplify the path to your success. We'll make reaching your business goals faster and easier than ever.
+                        Partner with us to simplify the path to your success. We will make reaching your business goals faster and easier than ever.
                     </p>
                 </div>
                     <div className=" mb-6 ml-18">

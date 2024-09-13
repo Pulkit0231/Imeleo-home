@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className="bg-[#1E40AF] text-white py-12">
             <div className="max-w-8xl mx-auto ">
                 <div className="grid grid-cols-1 md:grid-cols-5 gap-4 ml-28">
-                    <div className=''>
+                    <div >
                         <h2 className="text-6xl font-bold">Imeleo</h2>
                         <p className="mt-2 text-3xl font-semibold">Business Software Solutions And Services</p>
                         <div className="flex space-x-4 mt-4">
