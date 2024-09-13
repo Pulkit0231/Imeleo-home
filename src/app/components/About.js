@@ -29,7 +29,7 @@ const About = () => {
                             Success With<span className="text-blue-800 ml-2">Technology</span>
                         </h2>
                         <p className=" mt-2 text-xl text-gray-500">
-                            At Imeleo, we use technology to help businesses grow, work smarter, and get better results. Our goal is to make it easier for companies to succeed in today's digital world.
+                            At Imeleo, we use technology to help businesses grow, work smarter, and get better results. Our goal is to make it easier for companies to succeed in todays digital world.
                         </p>
                         <ul className='text-3xl pt-6 text-black'>
                             <li className='flex'><Image className='pr-3' width={40}

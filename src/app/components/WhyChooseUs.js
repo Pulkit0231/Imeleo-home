@@ -19,7 +19,7 @@ const services = [
         icon: '/whychoose/Vectorprogress.svg'
     },
     {
-        title: 'Support',
+        title: 'support',
         description:
             'Offering timely support and quick resolution of issues to minimize downtime and disruptions.',
         icon: '/whychoose/Vectorsupport.svg'
@@ -31,9 +31,9 @@ const services = [
         icon: '/whychoose/lightbulb-gear-regular 1innova.svg'
     },
     {
-        title: 'Scalability',
+        title: 'scalability',
         description:
-            "Providing scalable IT infrastructure and services that grow as the client's business grows.",
+            "Providing scalable IT infrastructure and services that grow as the clients business grows.",
         icon: '/whychoose/Vectorscalib.svg'
     },
 ];

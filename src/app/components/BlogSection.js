@@ -10,7 +10,7 @@ const BlogSection = () => {
     },
     {
       title: 'Top 5 Business Services to Boost Customer Satisfaction',
-      date: 'September 1, 2024',
+      date: 'september 1, 2024',
       description: 'Explore essential services such as CRM, help desk solutions, and automated support systems that can enhance customer experiences and foster long-term loyalty.',
       imageUrl: '/Blogs/top5.png',
     },

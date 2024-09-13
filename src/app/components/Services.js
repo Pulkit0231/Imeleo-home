@@ -15,11 +15,11 @@ const services = [
     {
         title: 'IT Consulting',
         description:
-            'Strategic IT consulting services to guide businesses through the dynamic technology landscape. We provide expert insights and solutions to optimize.',
+            'strategic IT consulting services to guide businesses through the dynamic technology landscape.We provide expert insights and solutions to optimize.',
         icon: '/services/VectorIT.svg',
     },
     {
-        title: 'Software Development',
+        title: 'software Development',
         description:
             'Enterprise-grade, bespoke solutions that perfectly align with your business needs and goals.',
         icon: '/services/Vectorsoftware.svg',
