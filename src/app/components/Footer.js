@@ -59,15 +59,15 @@ const Footer = () => {
                         <h3 className="text-3xl font-semibold mb-12">Contact</h3>
                         <ul>
                             <li className="mb-2"><a href="tel:+918873338873" className="block flex mb-2 text-lg">
-                                <Image className='mr-2' width={24}
+                                <Image className='mr-2' width={24} alt="phone"
                                     height={24} src='/contact/Vectorphoneicon.svg' /> +91-8873-33-8873
                             </a></li>
                             <li className="mb-2"><a href="mailto:contact@imeleo.com" className="block underline flex text-lg mb-2">
-                                <Image className='mr-2' width={24}
+                                <Image className='mr-2' width={24} alt="emailic"
                                     height={24} src='/contact/Vectoremailicon.svg' /> contact@imeleo.com
                             </a></li>
                             <li className="mb-2 block flex text-lg">
-                                <Image className='mr-2' width={24}
+                                <Image className='mr-2' width={24} alt="loc"
                                     height={18} src='/Vectorlocation.svg' />
                                 Noida, Uttar Pradesh</li>
                         </ul>

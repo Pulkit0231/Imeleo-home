@@ -32,8 +32,7 @@ const BlogSection = () => {
         <div className="mt-12 grid gap-7 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mx-9">
           {blogs.map((blog, index) => (
             <div key={index} className=" border-2 bg-gray-50 rounded-3xl p-6 ">
-              <Image width={500}
-                height={500} src={blog.imageUrl} alt={blog.title} className="w-[338px] h-[300px]  mb-6 " />
+              <Image width={500} height={500} src={blog.imageUrl} alt={blog.title} className="w-[338px] h-[300px]  mb-6 " />
               <div className="">
                 <span className="border border-[#1E40AF] rounded-3xl text-gray-500 px-5 py-1 ">{blog.date}</span>
                 <h3 className="text-2xl mt-3 font-semibold text-[#1E40AF]">{blog.title}</h3>
@@ -45,8 +44,7 @@ const BlogSection = () => {
         <div className="mt-8 text-center">
           <button className="border  font-semibold relative border-blue-600 text-black-600 py-2 pl-8 pr-11 rounded-lg hover:bg-blue-100 transition">
             View More
-            <Image width={12}
-              height={12} className=" absolute right-4 top-3 " src="/solutions/Vector.png" />
+            <Image width={12} alt="Arr" height={12} className=" absolute right-4 top-3 " src="/solutions/Vector.png" />
           </button>
         </div>
       </div>

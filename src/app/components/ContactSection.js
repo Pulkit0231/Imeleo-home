@@ -12,7 +12,7 @@ const ContactSection = () => {
                 </div>
             </div>
             <div className=" flex  mt-20 w-[82vw] h-[401px]  bg-[#1E40AF] text-white rounded-[50px] mx-24 mb-24 p-6 ">
-                <Image className=' relative right-7 bottom-[41%] z-10 h-[75vh] ' width={512} height={600} src='/contact/Imageboyimg.svg' />
+                <Image className=' relative right-7 bottom-[41%] z-10 h-[75vh] ' alt="boy" width={512} height={600} src='/contact/Imageboyimg.svg' />
                 <div><div className=" mb-6 ml-18">
                     <h2 className="text-[48px] leading-[57.6px] font-bold ">We help you to grow your business faster & easier.</h2>
                     <p className="mt-2 text-xl  ">
@@ -21,11 +21,11 @@ const ContactSection = () => {
                 </div>
                     <div className=" mb-6 ml-18">
                         <a href="tel:+918873338873" className="block flex mb-2 text-lg">
-                            <Image className='mr-3' width={32}
+                            <Image className='mr-3' width={32} alt="Phone"
                                 height={32} src='/contact/Vectorphoneicon.svg' /> +91-8873-33-8873
                         </a>
                         <a href="mailto:contact@imeleo.com" className="block underline flex text-lg">
-                            <Image className='mr-3' width={32}
+                            <Image className='mr-3' width={32} alt="email"
                                 height={32} src='/contact/Vectoremailicon.svg' /> contact@imeleo.com
                         </a>
                     </div>

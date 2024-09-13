@@ -73,7 +73,7 @@ const Services = () => {
                 <div className="mt-8 text-center">
                     <button className="border font-semibold relative border-blue-600 text-black-600 py-2 pl-8 pr-11 rounded-lg hover:bg-blue-100 transition">
                         View More
-                        <Image className=" absolute right-4 top-3 " width={12}
+                        <Image className=" absolute right-4 top-3 " width={12} alt="arrowblack"
                             height={12} src="/solutions/Vector.png" />
                     </button>
                 </div>
